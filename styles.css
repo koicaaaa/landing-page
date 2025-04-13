@@ -70,9 +70,34 @@ ul {
 button {
     background-color: #3882F6;
     color: white;
-    border: none;
     height: 30px;
     width: 100px;
     border-radius: 8px;
+}
+
+.second-section {
+    background-color: white;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+}
+
+.fourth-section {
+    background-color: white;
+}
+
+.advertisement {
+    background-color: #3882F6;
+}
+
+#call-to-action {
+    border-color: white;
 }
 
