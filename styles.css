@@ -77,16 +77,50 @@ button {
 
 .second-section {
     background-color: white;
+    padding: 50px;
+}
+
+.second-section img {
+    object-fit: cover;
+    border: 4px solid rgb(44, 44, 87);
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .second-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding: 10px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
 }
 
 .third-section {
     background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    color: #1F2937;
+}
+
+.from {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+    color: #1F2937;
 }
 
 .fourth-section {
